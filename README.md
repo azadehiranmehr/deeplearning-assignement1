@@ -2,13 +2,13 @@
 Steps of my program are as follows repectivly:
 1-	Load 3 CSV files to 3 Pandas Data frames (df1, df2, df3)
 2-	Concatanate 3 different dataframe on rows (Axis=0)  , sort  merged dataframe based on symbol column and then store it in Bigdata
-3-	Reorder columns of Bigdata dataframe 
+3-	Reorder columns of Bigdata dataframe based on the question 
 4-	Save Bigdata dataframe to the disk
 5-	Sort Bigdata dataframe based on MarketCap in descend order , Select first 15 rows
-6-	Reorder columns of Bigdata dataframe and add new column “Sequence number” to first column .“Sequence number” is the index of each row in the old big data before sorting based on Marketcap
+6-	Add new column “Sequence number” to first column .“Sequence number” is the index of each row in the old big data before sorting based on Marketcap
 7-	Save new Sorted dataframe to the disk
 8-	Request input from user to look up that value in dataframe colum
-9-	Search  ‘Symbol’ column for user input, if user input was found shows correspondent record otherwise shows Symbol was not found
+9-	Search  ‘Symbol’ column for user input, if user's input was found shows correspondent record otherwise shows "Symbol was not found"
 
 Data structure used in this program:
              Pandas Dataframe( 2-D labeled data structure with columns of potentially different type)
